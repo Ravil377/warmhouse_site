@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="date=no">
+    <meta name="format-detection" content="address=no">
+    <meta name="format-detection" content="email=no">
+    <meta content="notranslate" name="google">
+    <meta property="og:image" content="img/sharing/logo.png">
+    <meta property="vk:image" content="img/sharing/logo.png">
+    <meta name="twitter:image:src" content="img/sharing/logo.png">
+    <link rel="icon" type="image/ico" sizes="16x16" href="img/favicon/favicon-16x16.ico">
+    <link rel="stylesheet" href="css/style.min.css">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#fffff">
+    <meta name="msapplication-navbutton-color" content="#000">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+    <title>Проект</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container"><button class="burger" aria-label="бургер" id="headerBurger" data-target-id="headerBurger" data-target-class-toggle=".burger__menu_open"><span>бургер</span></button>
+            <div class="burger__menu">
+                <div class="burger__menu-close"><button class="btn burger__menu-close-btn"></button><a class="logo burger__logo" href="/"><img src="img/sprite/logo.svg" alt="лого" width="57" height="64" /></a></div>
+                <div class="burger__menu-content"><button class="btn header__nav-top-button btn_white burger__btn btn-open-modal-js" data-name="modal-donate">Помочь сейчас</button><button class="btn header__nav-top-button btn_orange burger__btn btn-open-modal-js" data-name="modal-need-help">Получить помощь</button>
+                    <ul class="burger__menu-list">
+                        <li class="burger__menu-list-item burger__menu-list-item_active"><a class="burger__menu-list-item-link" href="/">Главная</a></li>
+                        <li class="burger__menu-list-item"><a class="burger__menu-list-item-link" href="about.html">О фонде</a></li>
+                        <li class="burger__menu-list-item"><a class="burger__menu-list-item-link" href="projects.html">Проекты</a></li>
+                        <li class="burger__menu-list-item"><a class="burger__menu-list-item-link" href="howtohelp.html">Как помочь?</a></li>
+                        <li class="burger__menu-list-item"><a class="burger__menu-list-item-link" href="howtogethelp.html">Как получить помощь?</a></li>
+                        <li class="burger__menu-list-item"><a class="burger__menu-list-item-link" href="employees.html">Волонтёрам</a></li>
+                        <li class="burger__menu-list-item"><a class="burger__menu-list-item-link" href="employees.html">Компаниям</a></li>
+                        <li class="burger__menu-list-item"><a class="burger__menu-list-item-link" href="/">Главная</a></li>
+                    </ul>
+                    <div class="burger-description"><a class="burger-description-adress" href="#">Санкт-Петербург, Ул. Чайковского, 1, литера А, пом. 11Н</a><a class="burger-description-adress" href="tel:+79217464275">+7 921 746-42-75</a><a class="burger-description-adress" href="mailto:info@domgdeteplo.ru">info@domgdeteplo.ru</a></div>
+                    <div class="burger__social"><a class="burger__social-item burger__social-item_instagram" href="#"></a><a class="burger__social-item burger__social-item_facebook" href="#"></a><a class="burger__social-item burger__social-item_vk" href="#"></a></div>
+                </div>
+            </div><a class="logo header__logo" href="/"><img src="img/sprite/logo.svg" alt="лого" /></a>
+            <div class="header__nav-top">
+                <div class="header__nav-top-description"><a class="header__nav-top-adress" href="#">Санкт-Петербург, Ул. Чайковского, 1, литера А, пом. 11Н</a><a class="header__nav-top-adress" href="tel:+79217464275">+7 921 746-42-75</a><a class="header__nav-top-adress" href="mailto:info@domgdeteplo.ru">info@domgdeteplo.ru</a></div><button class="btn header__nav-top-button btn_white btn-open-modal-js" data-name="modal-donate">Помочь сейчас</button><button class="btn header__nav-top-button btn_orange btn-open-modal-js" data-name="modal-need-help">Получить помощь</button>
+            </div>
+            <div class="header__nav-bottom">
+                <ul class="header__nav-bottom-menu">
+                    <li class="header__nav-bottom-menu-item header__nav-bottom-menu-item_active"><a class="header__nav-bottom-menu-item-link" href="/">Главная</a></li>
+                    <li class="header__nav-bottom-menu-item header__nav-bottom-menu-itemjs "><a class="header__nav-bottom-menu-item-link" href="about.html">О фонде</a>
+                        <ul class="header__nav-bottom-submenu header__nav-bottom-submenujs">
+                            <li class="header__nav-bottom-submenu-item"><a class="header__nav-bottom-submenu-item-link" href="about.html">О «Тёплом доме»</a></li>
+                            <li class="header__nav-bottom-submenu-item"><a class="header__nav-bottom-submenu-item-link" href="employees.html">Сотрудники</a></li>
+                            <li class="header__nav-bottom-submenu-item"><a class="header__nav-bottom-submenu-item-link" href="reports.html">Отчёты</a></li>
+                            <li class="header__nav-bottom-submenu-item"><a class="header__nav-bottom-submenu-item-link" href="employees.html">Попечительский совет</a></li>
+                            <li class="header__nav-bottom-submenu-item"><a class="header__nav-bottom-submenu-item-link" href="contacts.html">Документы и реквизиты</a></li>
+                            <li class="header__nav-bottom-submenu-item"><a class="header__nav-bottom-submenu-item-link" href="award.html">Наши награды</a></li>
+                        </ul>
+                    </li>
+                    <li class="header__nav-bottom-menu-item "><a class="header__nav-bottom-menu-item-link" href="projects.html">Проекты</a></li>
+                    <li class="header__nav-bottom-menu-item "><a class="header__nav-bottom-menu-item-link" href="howtohelp.html">Как помочь?</a></li>
+                    <li class="header__nav-bottom-menu-item "><a class="header__nav-bottom-menu-item-link" href="howtogethelp.html">Как получить помощь?</a></li>
+                    <li class="header__nav-bottom-menu-item "><a class="header__nav-bottom-menu-item-link" href="#">Волонтёрам</a></li>
+                    <li class="header__nav-bottom-menu-item "><a class="header__nav-bottom-menu-item-link" href="#">Компаниям</a></li>
+                    <li class="header__nav-bottom-menu-item "><a class="header__nav-bottom-menu-item-link" href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="modal-need-help">
+            <div class="needhelp false modal-need-help__block">
+                <div class="needhelp__container-btn btn-close-js" data-name="modal-need-help"></div>
+                <p class="needhelp__title false">Нужна помощь? <span>Свяжитесь с нами</span></p>
+                <div class="needhelp__blocks">
+                    <div class="needhelp__container false">
+                        <div class="needhelp__formblock false">
+                            <form class="needhelp__form" action="/" method="POST"><input class="needhelp__form-input" type="text" name="name" placeholder="Имя" /><input class="needhelp__form-input" type="tel" name="tel" placeholder="Телефон" /><input class="needhelp__form-input" type="email" name="email" placeholder="Почта*" required="required" /><textarea class="needhelp__form-input needhelp__form-input_height" name="situation" placeholder="Опишите ситуацию и укажите, какая именно помощь нужна на данный момент"></textarea></form><input class="needhelp__form-btn" type="submit" />
+                            <p class="needhelp__desc">Продолжая вы соглашаетесь с условиями оферты, политики в отношении обработки и защиты персональных данных и даёте согласие на обработку своих персональных данных.</p>
+                        </div>
+                    </div>
+                    <div class="needhelp__contacts">
+                        <p class="needhelp__contacts-text">Контакты для связи</p><a class="needhelp__contacts-tel" href="tel:+78122758165">+7 (812) 275-81-65</a><a class="needhelp__contacts-tel" href="tel:+79216579018">+7 (921) 657-90-18</a><a class="needhelp__contacts-tel" href="mailto:info@domgdeteplo.ru">info@domgdeteplo.ru</a>
+                        <p class="needhelp__contacts-text">Обратите внимание</p>
+                        <p class="needhelp__contacts-desc">Фонд не оказывает семьям разовую помощь. Получение натуральной помощи возможно только при участии семьи в других наших программах.</p>
+                        <p class="needhelp__contacts-desc">Также фонд «Теплый дом» не оказывает финансовую помощь на лечение и реабилитацию детей взрослых, а также не помогает купить недвижимость, выплатить кредиты или ипотеку.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-donate">
+            <div class="block-donate block-donate_nobg" data-name="help">
+                <div class="block-donate__btn-close btn-close-js" data-name="modal-donate"></div>
+                <h2 class="block-donate__title">Помочь <span class="block-donate__title_black">«Тёплому дому»</span></h2>
+                <div class="block-donate__container">
+                    <form class="block-donate__form" action="/add_movie" method="POST">
+                        <ul class="block-donate__donates">
+                            <li class="block-donate__donates-donate" data-sum="100">100 ₽</li>
+                            <li class="block-donate__donates-donate block-donate__donates-donate_active" data-sum="500">500 ₽</li>
+                            <li class="block-donate__donates-donate" data-sum="1000">1 000 ₽</li>
+                            <li class="block-donate__donates-donate" data-sum="1500">1 500 ₽</li>
+                            <li class="block-donate__donates-donate" data-sum="3000">3 000 ₽</li>
+                        </ul>
+                        <div class="block-donate__other-sum">
+                            <div class="block-donate__input"><input class="block-donate__other-donate" type="number" name="title" placeholder="Другая сумма" /></div>
+                            <div class="block-donate__type-card"><label><input type="radio" name="card" id="mastercard" />
+                                    <div class="block-donate__card block-donate__other-mastercard"></div>
+                                </label><label><input type="radio" name="card" id="mastercard" />
+                                    <div class="block-donate__card block-donate__other-visa"></div>
+                                </label></div>
+                        </div>
+                        <div class="block-donate__data"><input class="block-donate__data-email" type="email" name="email" value="" placeholder="Почта*" required="required" /><input class="block-donate__data-name" type="text" name="name" value="" placeholder="Имя" /></div>
+                        <div class="block-donate__btns"><input class="block-donate__btns-month btn-open-modal-js" type="submit" value="Помогать ежемесячно" data-name="modal-donate-thanks" /><input class="block-donate__btns-single" type="submit" value="Помочь один раз" /></div>
+                        <div class="block-donate__rules">Продолжая вы соглашаетесь с условиями <span class="block-donate__rules_underline">оферты</span>, <span class="block-donate__rules_underline">политики</span> в отношении обработки и защиты персональных данных и даёте <span class="block-donate__rules_underline">согласие</span> на обработку своих персональных данных.</div>
+                    </form>
+                    <div class="block-donate__other-help">
+                        <p class="block-donate__other-help-text">Не обязательно оказывать помощь в рамках конкретных проектов. Можно пожертвовать и просто так, а мы самостоятельно определим, куда важнее всего сейчас направить ваши деньги.</p>
+                        <p class="block-donate__other-help-text">Кроме того не обязательно помогать деньгами, есть и другие способы.</p><a class="linkarrow block-donate__other-help_ml" href="howtohelp.html">Как ещё можно помочь?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="projectfull">
+            <div class="container">
+                <div class="content">
+                    <div class="block-article  projectfull__stolar">
+                        <div class="block-article__container " id="stolar">
+                            <div class="block-article__contentblock">
+                                <div class="block-article__block">
+                                    <div class="block-article__content"><a class="full-news__prev block-article__content-prev" href="javascript:history.back()">Назад</a>
+                                        <h2 class="block-article__content-title">Столярная мастерская</h2>
+                                        <div class="full-news__info"><a class="full-news__info-razdel" href="#">Центр развития</a>
+                                            <p class="full-news__info-date">3 марта 2021</p>
+                                        </div>
+                                        <p class="block-article__content-text">Детские занятия по основам столярного мастерства – это знакомство ребенка с целой <span class="block-article__content-text_orange">профессией</span>, один из важных аспектов в которой – работа руками. Дети смогут узнать дерево как материал, из которого сделаны многие предметы вокруг нас, а также познакомиться с идеей конструирования и формообразования.
+                                        <p class="block-article__content-text">В процессе обучения столярному ремеслу дети и их родители изучают материалы, используемые для изготовления столярных изделий, с осмыслением выбирают необходимый инструмент, знакомятся с разметкой деталей, пилением, строганием, сверлением древесины, скреплением деталей в изделия и украшением их</p>
+                                    </div>
+                                    <div class="block-projects__card-content block-article__card-content block-projects__card-js">
+                                        <p class="block-article__card-content-title">Сбор средств</p>
+                                        <div class="block-projects__card-content-goals block-article_card-content-goals">
+                                            <p class="block-projects__card-content-goals-text">Цель:&nbsp;</p>
+                                            <p class="block-projects__card-content-goals-text block-projects__card-content-goals-data">120000 руб.</p>
+                                        </div>
+                                        <div class="block-projects__card-content-collected block-article_card-content-collected">
+                                            <p class="block-projects__card-content-collected-text">Собрано:&nbsp;</p>
+                                            <p class="block-projects__card-content-collected-text block-projects__card-content-collected-data">80000 руб.</p>
+                                        </div>
+                                        <div class="block-projects__card-content-indicator block-article__card-content-indicator">
+                                            <div class="block-projects__card-content-indicator-index"></div>
+                                        </div><button class="btn block-article__card-btn btn-open-modal-js" data-name="modal-donate">Поддержать проект</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="block-article__content-img"><img class="block-article__content-img-1" src="img/content/stolar.jpg" alt="Картинка" /><img class="block-article__content-img-2" src="img/content/podelki.jpg" alt="Картинка" /></div>
+                        </div>
+                    </div>
+                    <div class="block-article  projectfull__stolar">
+                        <div class="block-article__container " id="result">
+                            <div class="block-article__contentblock">
+                                <div class="block-article__block">
+                                    <div class="block-article__content">
+                                        <h2 class="block-article__content-title">Результаты проекта</h2>
+                                        <p class="block-article__content-text">Дети учатся пользоваться современными станками и инструментами, узнают о свойствах дерева как материала, получают навыки дизайна изделий.</p>
+                                    </div>
+                                    <div class="block-article__content-questions">
+                                        <div class="block-article__questions">
+                                            <p class="block-article__questions-title">15 семей</p>Регулярно посещают столярную мастерскую.
+                                        </div>
+                                    </div>
+                                    <div class="block-article__content-questions">
+                                        <div class="block-article__questions">
+                                            <p class="block-article__questions-title">5 занятий</p>По основам столярного мастерства прошли в рамках летнего лагеря в Теплом доме.
+                                        </div>
+                                    </div>
+                                    <div class="block-article__content-questions">
+                                        <div class="block-article__questions">
+                                            <p class="block-article__questions-title">3 мастера</p>Опытные столяры, дизайнеры, преподаватели и художники передают опыт воспитанникам Темпого дома.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="block-article__content-img"><img class="block-article__content-mirror-img-1" src="img/content/molotok.jpg" alt="Картинка" /><img class="block-article__content-mirror-img-2" src="img/content/applacation.jpg" alt="Картинка" /></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pages-donate projectfull__donate" id="donate">
+                    <div class="container pages-donate__container">
+                        <div class="block-donate " data-name="help">
+                            <h2 class="block-donate__title">Помочь <span class="block-donate__title_black">«Тёплому дому»</span></h2>
+                            <div class="block-donate__container">
+                                <form class="block-donate__form" action="/add_movie" method="POST">
+                                    <ul class="block-donate__donates">
+                                        <li class="block-donate__donates-donate" data-sum="100">100 ₽</li>
+                                        <li class="block-donate__donates-donate block-donate__donates-donate_active" data-sum="500">500 ₽</li>
+                                        <li class="block-donate__donates-donate" data-sum="1000">1 000 ₽</li>
+                                        <li class="block-donate__donates-donate" data-sum="1500">1 500 ₽</li>
+                                        <li class="block-donate__donates-donate" data-sum="3000">3 000 ₽</li>
+                                    </ul>
+                                    <div class="block-donate__other-sum">
+                                        <div class="block-donate__input"><input class="block-donate__other-donate" type="number" name="title" placeholder="Другая сумма" /></div>
+                                        <div class="block-donate__type-card"><label><input type="radio" name="card" id="mastercard" />
+                                                <div class="block-donate__card block-donate__other-mastercard"></div>
+                                            </label><label><input type="radio" name="card" id="mastercard" />
+                                                <div class="block-donate__card block-donate__other-visa"></div>
+                                            </label></div>
+                                    </div>
+                                    <div class="block-donate__data"><input class="block-donate__data-email" type="email" name="email" value="" placeholder="Почта*" required="required" /><input class="block-donate__data-name" type="text" name="name" value="" placeholder="Имя" /></div>
+                                    <div class="block-donate__btns"><input class="block-donate__btns-month btn-open-modal-js" type="submit" value="Помогать ежемесячно" data-name="modal-donate-thanks" /><input class="block-donate__btns-single" type="submit" value="Помочь один раз" /></div>
+                                    <div class="block-donate__rules">Продолжая вы соглашаетесь с условиями <span class="block-donate__rules_underline">оферты</span>, <span class="block-donate__rules_underline">политики</span> в отношении обработки и защиты персональных данных и даёте <span class="block-donate__rules_underline">согласие</span> на обработку своих персональных данных.</div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="pages-donate__other-help">
+                            <div class="bubble-block"><svg class="bubble-block__img bubble-block__img_threebubble ">
+                                    <use xlink:href="img/symbols.svg#free_heroes"></use>
+                                </svg>
+                                <p>Каждый из нас способен сделать мир чуточку лучше, ведь для добрых дел необязательно нужны деньги, главное оставаться неравнодушным!
+                                <p>Помочь благотворительному фонду «Теплый дом»‎ можно разными способами.</p><a class="linkarrow bubble-block__link" href="howtohelp.html">Как ещё можно помочь?</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bubble-block block-article-header__bubble projectfull__bubble"><svg class="bubble-block__img bubble-block__img_not-link bubble-block__img_bubbleHelper">
+                        <use xlink:href="img/symbols.svg#bubble_helper"></use>
+                    </svg>
+                    <h2>Проекты «Тёплого дома» <span class="bubble-block__span">помогают людям прямо сейчас</span></h2>
+                </div>
+                <div class="swiper-container-projectsfull">
+                    <ul class="block-projects projectfull__slider">
+                        <li class="block-projects__card block-projects__card-js swiper-slide "><a class="block-projects__link" href="projectswarmhouse.html"><img class="block-projects__card-bg" src="img/content/balloon.jpg" alt="Картинка" />
+                                <div class="block-projects__card-content">
+                                    <div class="block-projects__card-content-text">
+                                        <p class="block-projects__card-content-title">Семейные праздники</p>
+                                        <p class="block-projects__card-content-desc">Проект «Семейные выходные»</p>
+                                    </div>
+                                    <div class="block-projects__card-content-calc">
+                                        <div class="block-projects__card-content-goals">
+                                            <p class="block-projects__card-content-goals-text">Цель</p>
+                                            <p class="block-projects__card-content-goals-text block-projects__card-content-goals-data">50000 руб.</p>
+                                        </div>
+                                        <div class="block-projects__card-content-collected">
+                                            <p class="block-projects__card-content-collected-text">Собрано</p>
+                                            <p class="block-projects__card-content-collected-text block-projects__card-content-collected-data">25000 руб.</p>
+                                        </div>
+                                        <div class="block-projects__card-content-indicator">
+                                            <div class="block-projects__card-content-indicator-index"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a></li>
+                        <li class="block-projects__card block-projects__card-js swiper-slide "><a class="block-projects__link" href="projectswarmhouse.html"><img class="block-projects__card-bg" src="img/content/stolar.jpg" alt="Картинка" />
+                                <div class="block-projects__card-content">
+                                    <div class="block-projects__card-content-text">
+                                        <p class="block-projects__card-content-title">Столярная мастерская</p>
+                                        <p class="block-projects__card-content-desc">Центр развития</p>
+                                    </div>
+                                    <div class="block-projects__card-content-calc">
+                                        <div class="block-projects__card-content-goals">
+                                            <p class="block-projects__card-content-goals-text">Цель</p>
+                                            <p class="block-projects__card-content-goals-text block-projects__card-content-goals-data">120000 руб.</p>
+                                        </div>
+                                        <div class="block-projects__card-content-collected">
+                                            <p class="block-projects__card-content-collected-text">Собрано</p>
+                                            <p class="block-projects__card-content-collected-text block-projects__card-content-collected-data">80000 руб.</p>
+                                        </div>
+                                        <div class="block-projects__card-content-indicator">
+                                            <div class="block-projects__card-content-indicator-index"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a></li>
+                        <li class="block-projects__card block-projects__card-js swiper-slide "><a class="block-projects__link" href="projectswarmhouse.html"><img class="block-projects__card-bg" src="img/content/holiday.jpg" alt="Картинка" />
+                                <div class="block-projects__card-content">
+                                    <div class="block-projects__card-content-text">
+                                        <p class="block-projects__card-content-title">Каникулы с «Тёплым домом»</p>
+                                        <p class="block-projects__card-content-desc">Летний выезд</p>
+                                    </div>
+                                    <div class="block-projects__card-content-calc">
+                                        <div class="block-projects__card-content-goals">
+                                            <p class="block-projects__card-content-goals-text">Цель</p>
+                                            <p class="block-projects__card-content-goals-text block-projects__card-content-goals-data">300000 руб.</p>
+                                        </div>
+                                        <div class="block-projects__card-content-collected">
+                                            <p class="block-projects__card-content-collected-text">Собрано</p>
+                                            <p class="block-projects__card-content-collected-text block-projects__card-content-collected-data">48000 руб.</p>
+                                        </div>
+                                        <div class="block-projects__card-content-indicator">
+                                            <div class="block-projects__card-content-indicator-index"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a></li>
+                        <li class="block-projects__card-end swiper-slide"><a class="block-projects__link" href="projects.html">
+                                <div class="block-gradient"><svg class="block-projects__card-end-img">
+                                        <use xlink:href="img/symbols.svg#smile_big"></use>
+                                    </svg>
+                                    <p class="block-projects__card-end-title"><span>15+</span><br> проектов, призванных помочь родителям и их детям</p>
+                                    <p class="block-projects__card-end-text">Смотреть все</p>
+                                </div>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__nav">
+                <ul class="footer__nav-list">
+                    <li class="footer__nav-list-item"><a href="about.html">О «Тёплом доме»</a></li>
+                    <li class="footer__nav-list-item"><a href="projects.html">Проекты</a></li>
+                    <li class="footer__nav-list-item"><a href="howtohelp.html">Как помочь?</a></li>
+                    <li class="footer__nav-list-item"><a href="news.html">Новости и истории</a></li>
+                </ul>
+                <ul class="footer__nav-list">
+                    <li class="footer__nav-list-item"><a href="">Волонтёрам и специалистам</a></li>
+                    <li class="footer__nav-list-item"><a href="">Корпоративным жертвователям</a></li>
+                    <li class="footer__nav-list-item"><a href="howtogethelp.html">Как получить помощь</a></li>
+                    <li class="footer__nav-list-item"><a href="contacts.html">Контакты</a></li>
+                </ul>
+                <ul class="footer__social">
+                    <li class="footer__social-icon footer__social_instagram"></li>
+                    <li class="footer__social-icon footer__social_facebook"></li>
+                    <li class="footer__social-icon footer__social_vk"></li>
+                </ul>
+            </div>
+            <div class="footer__address">
+                <div class="footer__address-desc">
+                    <p>Санкт-Петербург, Россия
+                        191187, ул. Чайковского, 1, литера А, пом. 11Н</p>
+                    <p><a href="tel:+79217464275">+7 921 746-42-75</a><a href="mailto:info@domgdeteplo.ru"><span>info@domgdeteplo.ru</span></a></p>
+                </div><button class="btn footer__address-button btn_orange btn-open-modal-js" data-name="modal-need-help">Обратиться за помощью</button>
+            </div>
+        </div>
+        <div class="footer__copyright container">
+            <div class="footer__copyright-politics"><a href="#">Политика конфиденциальности</a><a href="#">Пользовательское соглашение</a></div><a href="#">designed &amp; developed by SNEG</a>
+        </div>
+    </footer><script src="libs/jquery/dist/jquery.min.js"></script><script src="js/custom.js"></script>
+</body>
+
+</html>

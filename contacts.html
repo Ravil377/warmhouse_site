@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="date=no">
+    <meta name="format-detection" content="address=no">
+    <meta name="format-detection" content="email=no">
+    <meta content="notranslate" name="google">
+    <meta property="og:image" content="img/sharing/logo.png">
+    <meta property="vk:image" content="img/sharing/logo.png">
+    <meta name="twitter:image:src" content="img/sharing/logo.png">
+    <link rel="icon" type="image/ico" sizes="16x16" href="img/favicon/favicon-16x16.ico">
+    <link rel="stylesheet" href="css/style.min.css">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#fffff">
+    <meta name="msapplication-navbutton-color" content="#000">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+    <title>Реквизиты и контакты</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container"><button class="burger" aria-label="бургер" id="headerBurger" data-target-id="headerBurger" data-target-class-toggle=".burger__menu_open"><span>бургер</span></button>
+            <div class="burger__menu">
+                <div class="burger__menu-close"><button class="btn burger__menu-close-btn"></button><a class="logo burger__logo" href="/"><img src="img/sprite/logo.svg" alt="лого" width="57" height="64" /></a></div>
+                <div class="burger__menu-content"><button class="btn header__nav-top-button btn_white burger__btn btn-open-modal-js" data-name="modal-donate">Помочь сейчас</button><button class="btn header__nav-top-button btn_orange burger__btn btn-open-modal-js" data-name="modal-need-help">Получить помощь</button>
+                    <ul class="burger__menu-list">
+                        <li class="burger__menu-list-item burger__menu-list-item_active"><a class="burger__menu-list-item-link" href="/">Главная</a></li>
+                        <li class="burger__menu-list-item"><a class="burger__menu-list-item-link" href="about.html">О фонде</a></li>
+                        <li class="burger__menu-list-item"><a class="burger__menu-list-item-link" href="projects.html">Проекты</a></li>
+                        <li class="burger__menu-list-item"><a class="burger__menu-list-item-link" href="howtohelp.html">Как помочь?</a></li>
+                        <li class="burger__menu-list-item"><a class="burger__menu-list-item-link" href="howtogethelp.html">Как получить помощь?</a></li>
+                        <li class="burger__menu-list-item"><a class="burger__menu-list-item-link" href="employees.html">Волонтёрам</a></li>
+                        <li class="burger__menu-list-item"><a class="burger__menu-list-item-link" href="employees.html">Компаниям</a></li>
+                        <li class="burger__menu-list-item"><a class="burger__menu-list-item-link" href="/">Главная</a></li>
+                    </ul>
+                    <div class="burger-description"><a class="burger-description-adress" href="#">Санкт-Петербург, Ул. Чайковского, 1, литера А, пом. 11Н</a><a class="burger-description-adress" href="tel:+79217464275">+7 921 746-42-75</a><a class="burger-description-adress" href="mailto:info@domgdeteplo.ru">info@domgdeteplo.ru</a></div>
+                    <div class="burger__social"><a class="burger__social-item burger__social-item_instagram" href="#"></a><a class="burger__social-item burger__social-item_facebook" href="#"></a><a class="burger__social-item burger__social-item_vk" href="#"></a></div>
+                </div>
+            </div><a class="logo header__logo" href="/"><img src="img/sprite/logo.svg" alt="лого" /></a>
+            <div class="header__nav-top">
+                <div class="header__nav-top-description"><a class="header__nav-top-adress" href="#">Санкт-Петербург, Ул. Чайковского, 1, литера А, пом. 11Н</a><a class="header__nav-top-adress" href="tel:+79217464275">+7 921 746-42-75</a><a class="header__nav-top-adress" href="mailto:info@domgdeteplo.ru">info@domgdeteplo.ru</a></div><button class="btn header__nav-top-button btn_white btn-open-modal-js" data-name="modal-donate">Помочь сейчас</button><button class="btn header__nav-top-button btn_orange btn-open-modal-js" data-name="modal-need-help">Получить помощь</button>
+            </div>
+            <div class="header__nav-bottom">
+                <ul class="header__nav-bottom-menu">
+                    <li class="header__nav-bottom-menu-item "><a class="header__nav-bottom-menu-item-link" href="/">Главная</a></li>
+                    <li class="header__nav-bottom-menu-item header__nav-bottom-menu-itemjs "><a class="header__nav-bottom-menu-item-link" href="about.html">О фонде</a>
+                        <ul class="header__nav-bottom-submenu header__nav-bottom-submenujs">
+                            <li class="header__nav-bottom-submenu-item"><a class="header__nav-bottom-submenu-item-link" href="about.html">О «Тёплом доме»</a></li>
+                            <li class="header__nav-bottom-submenu-item"><a class="header__nav-bottom-submenu-item-link" href="employees.html">Сотрудники</a></li>
+                            <li class="header__nav-bottom-submenu-item"><a class="header__nav-bottom-submenu-item-link" href="reports.html">Отчёты</a></li>
+                            <li class="header__nav-bottom-submenu-item"><a class="header__nav-bottom-submenu-item-link" href="employees.html">Попечительский совет</a></li>
+                            <li class="header__nav-bottom-submenu-item"><a class="header__nav-bottom-submenu-item-link" href="contacts.html">Документы и реквизиты</a></li>
+                            <li class="header__nav-bottom-submenu-item"><a class="header__nav-bottom-submenu-item-link" href="award.html">Наши награды</a></li>
+                        </ul>
+                    </li>
+                    <li class="header__nav-bottom-menu-item "><a class="header__nav-bottom-menu-item-link" href="projects.html">Проекты</a></li>
+                    <li class="header__nav-bottom-menu-item "><a class="header__nav-bottom-menu-item-link" href="howtohelp.html">Как помочь?</a></li>
+                    <li class="header__nav-bottom-menu-item "><a class="header__nav-bottom-menu-item-link" href="howtogethelp.html">Как получить помощь?</a></li>
+                    <li class="header__nav-bottom-menu-item "><a class="header__nav-bottom-menu-item-link" href="#">Волонтёрам</a></li>
+                    <li class="header__nav-bottom-menu-item "><a class="header__nav-bottom-menu-item-link" href="#">Компаниям</a></li>
+                    <li class="header__nav-bottom-menu-item header__nav-bottom-menu-item_active"><a class="header__nav-bottom-menu-item-link" href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="modal-thanks">
+            <div class="modal-thanks__block">
+                <div class="needhelp__container-btn btn-close-js" data-name="modal-thanks"></div>
+                <p class="page-thanks__title modal-thanks__title">Спасибо вам <span>за помощь</span></p>
+                <ul class="modal-thanks__donaters">
+                    <li class="modal-thanks__donater">
+                        <p class="page-thanks__donater-name">Аноним</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">400 ₽</p>
+                            <p class="page-thanks__donater-time">1 час назад</p>
+                        </div>
+                    </li>
+                    <li class="modal-thanks__donater">
+                        <p class="page-thanks__donater-name">Таиссия</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">1 000 ₽</p>
+                            <p class="page-thanks__donater-time">4 часа назад</p>
+                        </div>
+                    </li>
+                    <li class="modal-thanks__donater">
+                        <p class="page-thanks__donater-name">Сергей</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">700 ₽</p>
+                            <p class="page-thanks__donater-time">2 часа назад</p>
+                        </div>
+                    </li>
+                    <li class="modal-thanks__donater">
+                        <p class="page-thanks__donater-name">Аноним</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">400 ₽</p>
+                            <p class="page-thanks__donater-time">1 час назад</p>
+                        </div>
+                    </li>
+                    <li class="modal-thanks__donater">
+                        <p class="page-thanks__donater-name">Таиссия</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">1 000 ₽</p>
+                            <p class="page-thanks__donater-time">4 часа назад</p>
+                        </div>
+                    </li>
+                    <li class="modal-thanks__donater">
+                        <p class="page-thanks__donater-name">Аноним</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">400 ₽</p>
+                            <p class="page-thanks__donater-time">1 час назад</p>
+                        </div>
+                    </li>
+                    <li class="modal-thanks__donater">
+                        <p class="page-thanks__donater-name">Таиссия</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">1 000 ₽</p>
+                            <p class="page-thanks__donater-time">4 часа назад</p>
+                        </div>
+                    </li>
+                    <li class="modal-thanks__donater">
+                        <p class="page-thanks__donater-name">Сергей</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">700 ₽</p>
+                            <p class="page-thanks__donater-time">2 часа назад</p>
+                        </div>
+                    </li>
+                    <li class="modal-thanks__donater">
+                        <p class="page-thanks__donater-name">Аноним</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">400 ₽</p>
+                            <p class="page-thanks__donater-time">1 час назад</p>
+                        </div>
+                    </li>
+                    <li class="modal-thanks__donater">
+                        <p class="page-thanks__donater-name">Таиссия</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">1 000 ₽</p>
+                            <p class="page-thanks__donater-time">4 часа назад</p>
+                        </div>
+                    </li>
+                    <li class="modal-thanks__donater">
+                        <p class="page-thanks__donater-name">Аноним</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">400 ₽</p>
+                            <p class="page-thanks__donater-time">1 час назад</p>
+                        </div>
+                    </li>
+                    <li class="modal-thanks__donater">
+                        <p class="page-thanks__donater-name">Таиссия</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">1 000 ₽</p>
+                            <p class="page-thanks__donater-time">4 часа назад</p>
+                        </div>
+                    </li>
+                    <li class="modal-thanks__donater">
+                        <p class="page-thanks__donater-name">Сергей</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">700 ₽</p>
+                            <p class="page-thanks__donater-time">2 часа назад</p>
+                        </div>
+                    </li>
+                    <li class="modal-thanks__donater">
+                        <p class="page-thanks__donater-name">Аноним</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">400 ₽</p>
+                            <p class="page-thanks__donater-time">1 час назад</p>
+                        </div>
+                    </li>
+                    <li class="modal-thanks__donater">
+                        <p class="page-thanks__donater-name">Таиссия</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">1 000 ₽</p>
+                            <p class="page-thanks__donater-time">4 часа назад</p>
+                        </div>
+                    </li>
+                    <li class="modal-thanks__donater">
+                        <p class="page-thanks__donater-name">Аноним</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">400 ₽</p>
+                            <p class="page-thanks__donater-time">1 час назад</p>
+                        </div>
+                    </li>
+                    <li class="modal-thanks__donater">
+                        <p class="page-thanks__donater-name">Таиссия</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">1 000 ₽</p>
+                            <p class="page-thanks__donater-time">4 часа назад</p>
+                        </div>
+                    </li>
+                    <li class="modal-thanks__donater">
+                        <p class="page-thanks__donater-name">Сергей</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">700 ₽</p>
+                            <p class="page-thanks__donater-time">2 часа назад</p>
+                        </div>
+                    </li>
+                    <li class="modal-thanks__donater">
+                        <p class="page-thanks__donater-name">Аноним</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">400 ₽</p>
+                            <p class="page-thanks__donater-time">1 час назад</p>
+                        </div>
+                    </li>
+                    <li class="modal-thanks__donater">
+                        <p class="page-thanks__donater-name">Таиссия</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">1 000 ₽</p>
+                            <p class="page-thanks__donater-time">4 часа назад </p>
+                        </div>
+                    </li>
+                    <li class="modal-thanks__donater">
+                        <p class="page-thanks__donater-name">Аноним</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">400 ₽</p>
+                            <p class="page-thanks__donater-time">1 час назад</p>
+                        </div>
+                    </li>
+                    <li class="modal-thanks__donater">
+                        <p class="page-thanks__donater-name">Таиссия</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">1 000 ₽</p>
+                            <p class="page-thanks__donater-time">4 часа назад</p>
+                        </div>
+                    </li>
+                    <li class="modal-thanks__donater">
+                        <p class="page-thanks__donater-name">Сергей</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">700 ₽</p>
+                            <p class="page-thanks__donater-time">2 часа назад</p>
+                        </div>
+                    </li>
+                    <li class="modal-thanks__donater">
+                        <p class="page-thanks__donater-name">Аноним</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">400 ₽</p>
+                            <p class="page-thanks__donater-time">1 час назад</p>
+                        </div>
+                    </li>
+                    <li class="modal-thanks__donater">
+                        <p class="page-thanks__donater-name">Таиссия</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">1 000 ₽</p>
+                            <p class="page-thanks__donater-time">4 часа назад</p>
+                        </div>
+                    </li>
+                    <li class="modal-thanks__donater">
+                        <p class="page-thanks__donater-name">Аноним</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">400 ₽</p>
+                            <p class="page-thanks__donater-time">1 час назад</p>
+                        </div>
+                    </li>
+                    <li class="modal-thanks__donater">
+                        <p class="page-thanks__donater-name">Таиссия</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">1 000 ₽</p>
+                            <p class="page-thanks__donater-time">4 часа назад</p>
+                        </div>
+                    </li>
+                    <li class="modal-thanks__donater">
+                        <p class="page-thanks__donater-name">Сергей</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">700 ₽</p>
+                            <p class="page-thanks__donater-time">2 часа назад</p>
+                        </div>
+                    </li>
+                    <li class="modal-thanks__donater">
+                        <p class="page-thanks__donater-name">Аноним</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">400 ₽</p>
+                            <p class="page-thanks__donater-time">1 час назад</p>
+                        </div>
+                    </li>
+                    <li class="modal-thanks__donater">
+                        <p class="page-thanks__donater-name">Таиссия</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">1 000 ₽</p>
+                            <p class="page-thanks__donater-time">4 часа назад </p>
+                        </div>
+                    </li>
+                    <li class="modal-thanks__donater">
+                        <p class="page-thanks__donater-name">Сергей</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">700 ₽</p>
+                            <p class="page-thanks__donater-time">2 часа назад</p>
+                        </div>
+                    </li>
+                    <li class="modal-thanks__donater">
+                        <p class="page-thanks__donater-name">Аноним</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">400 ₽</p>
+                            <p class="page-thanks__donater-time">1 час назад</p>
+                        </div>
+                    </li>
+                    <li class="modal-thanks__donater">
+                        <p class="page-thanks__donater-name">Таиссия</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">1 000 ₽</p>
+                            <p class="page-thanks__donater-time">4 часа назад </p>
+                        </div>
+                    </li>
+                    <li class="modal-thanks__donater">
+                        <p class="page-thanks__donater-name">Аноним</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">400 ₽</p>
+                            <p class="page-thanks__donater-time">1 час назад</p>
+                        </div>
+                    </li>
+                    <li class="modal-thanks__donater">
+                        <p class="page-thanks__donater-name">Таиссия</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">1 000 ₽</p>
+                            <p class="page-thanks__donater-time">4 часа назад </p>
+                        </div>
+                    </li>
+                    <li class="modal-thanks__donater modal-thanks__donater-all"><a class="page-thanks__donater-link btn-open-modal-js" href="#" data-name="modal-thanks">
+                            <p class="page-thanks__donater-title">Показать ещё</p>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="modal-need-help">
+            <div class="needhelp false modal-need-help__block">
+                <div class="needhelp__container-btn btn-close-js" data-name="modal-need-help"></div>
+                <p class="needhelp__title false">Нужна помощь? <span>Свяжитесь с нами</span></p>
+                <div class="needhelp__blocks">
+                    <div class="needhelp__container false">
+                        <div class="needhelp__formblock false">
+                            <form class="needhelp__form" action="/" method="POST"><input class="needhelp__form-input" type="text" name="name" placeholder="Имя" /><input class="needhelp__form-input" type="tel" name="tel" placeholder="Телефон" /><input class="needhelp__form-input" type="email" name="email" placeholder="Почта*" required="required" /><textarea class="needhelp__form-input needhelp__form-input_height" name="situation" placeholder="Опишите ситуацию и укажите, какая именно помощь нужна на данный момент"></textarea></form><input class="needhelp__form-btn" type="submit" />
+                            <p class="needhelp__desc">Продолжая вы соглашаетесь с условиями оферты, политики в отношении обработки и защиты персональных данных и даёте согласие на обработку своих персональных данных.</p>
+                        </div>
+                    </div>
+                    <div class="needhelp__contacts">
+                        <p class="needhelp__contacts-text">Контакты для связи</p><a class="needhelp__contacts-tel" href="tel:+78122758165">+7 (812) 275-81-65</a><a class="needhelp__contacts-tel" href="tel:+79216579018">+7 (921) 657-90-18</a><a class="needhelp__contacts-tel" href="mailto:info@domgdeteplo.ru">info@domgdeteplo.ru</a>
+                        <p class="needhelp__contacts-text">Обратите внимание</p>
+                        <p class="needhelp__contacts-desc">Фонд не оказывает семьям разовую помощь. Получение натуральной помощи возможно только при участии семьи в других наших программах.</p>
+                        <p class="needhelp__contacts-desc">Также фонд «Теплый дом» не оказывает финансовую помощь на лечение и реабилитацию детей взрослых, а также не помогает купить недвижимость, выплатить кредиты или ипотеку.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-donate">
+            <div class="block-donate block-donate_nobg" data-name="help">
+                <div class="block-donate__btn-close btn-close-js" data-name="modal-donate"></div>
+                <h2 class="block-donate__title">Помочь <span class="block-donate__title_black">«Тёплому дому»</span></h2>
+                <div class="block-donate__container">
+                    <form class="block-donate__form" action="/add_movie" method="POST">
+                        <ul class="block-donate__donates">
+                            <li class="block-donate__donates-donate" data-sum="100">100 ₽</li>
+                            <li class="block-donate__donates-donate block-donate__donates-donate_active" data-sum="500">500 ₽</li>
+                            <li class="block-donate__donates-donate" data-sum="1000">1 000 ₽</li>
+                            <li class="block-donate__donates-donate" data-sum="1500">1 500 ₽</li>
+                            <li class="block-donate__donates-donate" data-sum="3000">3 000 ₽</li>
+                        </ul>
+                        <div class="block-donate__other-sum">
+                            <div class="block-donate__input"><input class="block-donate__other-donate" type="number" name="title" placeholder="Другая сумма" /></div>
+                            <div class="block-donate__type-card"><label><input type="radio" name="card" id="mastercard" />
+                                    <div class="block-donate__card block-donate__other-mastercard"></div>
+                                </label><label><input type="radio" name="card" id="mastercard" />
+                                    <div class="block-donate__card block-donate__other-visa"></div>
+                                </label></div>
+                        </div>
+                        <div class="block-donate__data"><input class="block-donate__data-email" type="email" name="email" value="" placeholder="Почта*" required="required" /><input class="block-donate__data-name" type="text" name="name" value="" placeholder="Имя" /></div>
+                        <div class="block-donate__btns"><input class="block-donate__btns-month btn-open-modal-js" type="submit" value="Помогать ежемесячно" data-name="modal-donate-thanks" /><input class="block-donate__btns-single" type="submit" value="Помочь один раз" /></div>
+                        <div class="block-donate__rules">Продолжая вы соглашаетесь с условиями <span class="block-donate__rules_underline">оферты</span>, <span class="block-donate__rules_underline">политики</span> в отношении обработки и защиты персональных данных и даёте <span class="block-donate__rules_underline">согласие</span> на обработку своих персональных данных.</div>
+                    </form>
+                    <div class="block-donate__other-help">
+                        <p class="block-donate__other-help-text">Не обязательно оказывать помощь в рамках конкретных проектов. Можно пожертвовать и просто так, а мы самостоятельно определим, куда важнее всего сейчас направить ваши деньги.</p>
+                        <p class="block-donate__other-help-text">Кроме того не обязательно помогать деньгами, есть и другие способы.</p><a class="linkarrow block-donate__other-help_ml" href="howtohelp.html">Как ещё можно помочь?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page-contacts">
+            <div class="container page-contacts__container">
+                <h1 class="page-contacts__title">Реквизиты и&nbsp;документы</h1>
+                <div class="page-contacts__content">
+                    <div class="page-contacts__requisites">
+                        <div class="page-contacts__requisites-header page-contacts__text page-contacts__text_bold">Реквизиты</div>
+                        <div class="page-contacts__requisites-address page-contacts__text">Благотворительный фонд «Теплый дом»
+                            <span>191187, г. Санкт-Петербург</span>
+                            <span>Ул. Чайковского, д. 1, литер А, пом. 11н</span>
+                            <span><a href="tel:+78122758165">+7 (812) 275-81-65</a></span>
+                        </div>
+                        <div class="page-contacts__requisites-bank">
+                            <div class="page-contacts__requisites-table">
+                                <div class="page-contacts__requisites-table-container">
+                                    <div class="page-contacts__requisites-name page-contacts__text page-contacts__text_bold">ИНН</div>
+                                    <div class="page-contacts__text">7811340000</div>
+                                </div>
+                                <div class="page-contacts__requisites-table-container">
+                                    <div class="page-contacts__requisites-name page-contacts__text page-contacts__text_bold">КПП</div>
+                                    <div class="page-contacts__text">784101001</div>
+                                </div>
+                                <div class="page-contacts__requisites-table-container">
+                                    <div class="page-contacts__requisites-name page-contacts__text page-contacts__text_bold">ОГРН</div>
+                                    <div class="page-contacts__text">1067847576037</div>
+                                </div>
+                                <div class="page-contacts__requisites-table-container">
+                                    <div class="page-contacts__requisites-name page-contacts__text page-contacts__text_bold">ОКАТО</div>
+                                    <div class="page-contacts__text">40298563000</div>
+                                </div>
+                                <div class="page-contacts__requisites-table-container">
+                                    <div class="page-contacts__requisites-name page-contacts__text page-contacts__text_bold">ОКВЭД</div>
+                                    <div class="page-contacts__text">85.3</div>
+                                </div>
+                                <div class="page-contacts__requisites-table-container">
+                                    <div class="page-contacts__requisites-name page-contacts__text page-contacts__text_bold">ОКПО</div>
+                                    <div class="page-contacts__text">79814355</div>
+                                </div>
+                                <div class="page-contacts__requisites-table-container">
+                                    <div class="page-contacts__requisites-name page-contacts__text page-contacts__text_bold">Р/Счёт</div>
+                                    <div class="page-contacts__text">40703810655130110863<div class="page-contacts__requisites-bankname">«СЕВЕРО-ЗАПАДНЫЙ БАНК ПАО «СБЕРБАНК РОССИИ»</div>
+                                    </div>
+                                </div>
+                                <div class="page-contacts__requisites-table-container">
+                                    <div class="page-contacts__requisites-name page-contacts__text page-contacts__text_bold">К/Счёт</div>
+                                    <div class="page-contacts__text">30101810500000000653</div>
+                                </div>
+                                <div class="page-contacts__requisites-table-container">
+                                    <div class="page-contacts__requisites-name page-contacts__text page-contacts__text_bold">БИК</div>
+                                    <div class="page-contacts__text">044030653</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-contacts__contacts">
+                        <p class="page-contacts__contacts-header page-contacts__text page-contacts__text_bold">Полное и сокращённое наименования</p>
+                        <div class="page-contacts__contacts_name page-contacts__text">Благотворительный фонд «Тёплый дом»
+                            <span>БФ «Тёплый дом»</span>
+                        </div>
+                        <p class="page-contacts__contacts-header-address page-contacts__text page-contacts__text_bold">Юридический адрес</p>
+                        <div class="page-contacts__contacts-uraddress page-contacts__text">191187, г. Санкт-Петербург
+                            <span>ул. Чайковского, д. 1, лит. А, пом. 11Н</span>
+                        </div>
+                        <p class="page-contacts__contacts-header-contacts page-contacts__text page-contacts__text_bold">Контакты</p>
+                        <div class="page-contacts__contacts-contacts page-contacts__text"><a href="tel:+78122758165">+7 (812) 275-81-65</a>
+                            <a href="mailto:info@domgdeteplo.ru"><span>info@domgdeteplo.ru</span></a>
+                        </div>
+                        <p class="page-contacts__contacts-header-predsed page-contacts__text page-contacts__text_bold">Председатель совета</p>
+                        <div class="page-contacts__contacts-predsed"><img class="page-contacts__contacts-predsed-img" src="img/content/employees.jpg" alt="Картинка" />
+                            <p class="page-contacts__text"><span>Егорычева Светлана</span> Леонидовна</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-contacts__document">
+                    <h2 class="page-contacts__documents-title">Документы</h2>
+                    <div class="page-documents__container swiper-container-documents">
+                        <ul class="blockDocuments swiper-wrapper">
+                            <li class="swiper-slide blockDocuments__document">
+                                <div class="blockDocuments__document-property">
+                                    <div class="blockDocuments__document-property-icon"><img src="img/sprite/pdf.svg" alt="pdf" /></div>
+                                    <div class="blockDocuments__document-property-type">pdf</div>
+                                    <div class="blockDocuments__document-property-size">2,5 Мб</div>
+                                </div>
+                                <p class="blockDocuments__document-name">Отчет о деятельности фонда ноябрь-декабрь 2020</p>
+                            </li>
+                            <li class="swiper-slide blockDocuments__document">
+                                <div class="blockDocuments__document-property">
+                                    <div class="blockDocuments__document-property-icon"><img src="img/sprite/doc.svg" alt="doc" /></div>
+                                    <div class="blockDocuments__document-property-type">doc</div>
+                                    <div class="blockDocuments__document-property-size">2,5 Мб</div>
+                                </div>
+                                <p class="blockDocuments__document-name">Аудиторский отчет. Первое полугодие 2020</p>
+                            </li>
+                            <li class="swiper-slide blockDocuments__document">
+                                <div class="blockDocuments__document-property">
+                                    <div class="blockDocuments__document-property-icon"><img src="img/sprite/pdf.svg" alt="pdf" /></div>
+                                    <div class="blockDocuments__document-property-type">pdf</div>
+                                    <div class="blockDocuments__document-property-size">2,5 Мб</div>
+                                </div>
+                                <p class="blockDocuments__document-name">Отчет о деятельности фонда сентябрь-октябрь 2020</p>
+                            </li>
+                            <li class="swiper-slide blockDocuments__document">
+                                <div class="blockDocuments__document-property">
+                                    <div class="blockDocuments__document-property-icon"><img src="img/sprite/xls.svg" alt="xls" /></div>
+                                    <div class="blockDocuments__document-property-type">xls</div>
+                                    <div class="blockDocuments__document-property-size">2,5 Мб</div>
+                                </div>
+                                <p class="blockDocuments__document-name">Отчет о деятельности фонда июль-август 2020</p>
+                            </li>
+                            <li class="swiper-slide blockDocuments__document">
+                                <div class="blockDocuments__document-property">
+                                    <div class="blockDocuments__document-property-icon"><img src="img/sprite/doc.svg" alt="doc" /></div>
+                                    <div class="blockDocuments__document-property-type">doc</div>
+                                    <div class="blockDocuments__document-property-size">2,5 Мб</div>
+                                </div>
+                                <p class="blockDocuments__document-name">Аудиторский отчет. Первое полугодие 2020</p>
+                            </li>
+                            <li class="swiper-slide blockDocuments__document">
+                                <div class="blockDocuments__document-property">
+                                    <div class="blockDocuments__document-property-icon"><img src="img/sprite/pdf.svg" alt="pdf" /></div>
+                                    <div class="blockDocuments__document-property-type">pdf</div>
+                                    <div class="blockDocuments__document-property-size">2,5 Мб</div>
+                                </div>
+                                <p class="blockDocuments__document-name">Отчет о деятельности фонда сентябрь-октябрь 2020</p>
+                            </li>
+                            <li class="swiper-slide blockDocuments__document">
+                                <div class="blockDocuments__document-property">
+                                    <div class="blockDocuments__document-property-icon"><img src="img/sprite/xls.svg" alt="xls" /></div>
+                                    <div class="blockDocuments__document-property-type">xls</div>
+                                    <div class="blockDocuments__document-property-size">2,5 Мб</div>
+                                </div>
+                                <p class="blockDocuments__document-name">Отчет о деятельности фонда июль-август 2020</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pages-donate" id="donate">
+            <div class="container pages-donate__container">
+                <div class="block-donate " data-name="help">
+                    <h2 class="block-donate__title">Помочь <span class="block-donate__title_black">«Тёплому дому»</span></h2>
+                    <div class="block-donate__container">
+                        <form class="block-donate__form" action="/add_movie" method="POST">
+                            <ul class="block-donate__donates">
+                                <li class="block-donate__donates-donate" data-sum="100">100 ₽</li>
+                                <li class="block-donate__donates-donate block-donate__donates-donate_active" data-sum="500">500 ₽</li>
+                                <li class="block-donate__donates-donate" data-sum="1000">1 000 ₽</li>
+                                <li class="block-donate__donates-donate" data-sum="1500">1 500 ₽</li>
+                                <li class="block-donate__donates-donate" data-sum="3000">3 000 ₽</li>
+                            </ul>
+                            <div class="block-donate__other-sum">
+                                <div class="block-donate__input"><input class="block-donate__other-donate" type="number" name="title" placeholder="Другая сумма" /></div>
+                                <div class="block-donate__type-card"><label><input type="radio" name="card" id="mastercard" />
+                                        <div class="block-donate__card block-donate__other-mastercard"></div>
+                                    </label><label><input type="radio" name="card" id="mastercard" />
+                                        <div class="block-donate__card block-donate__other-visa"></div>
+                                    </label></div>
+                            </div>
+                            <div class="block-donate__data"><input class="block-donate__data-email" type="email" name="email" value="" placeholder="Почта*" required="required" /><input class="block-donate__data-name" type="text" name="name" value="" placeholder="Имя" /></div>
+                            <div class="block-donate__btns"><input class="block-donate__btns-month btn-open-modal-js" type="submit" value="Помогать ежемесячно" data-name="modal-donate-thanks" /><input class="block-donate__btns-single" type="submit" value="Помочь один раз" /></div>
+                            <div class="block-donate__rules">Продолжая вы соглашаетесь с условиями <span class="block-donate__rules_underline">оферты</span>, <span class="block-donate__rules_underline">политики</span> в отношении обработки и защиты персональных данных и даёте <span class="block-donate__rules_underline">согласие</span> на обработку своих персональных данных.</div>
+                        </form>
+                    </div>
+                </div>
+                <div class="pages-donate__other-help">
+                    <div class="bubble-block"><svg class="bubble-block__img bubble-block__img_threebubble ">
+                            <use xlink:href="img/symbols.svg#free_heroes"></use>
+                        </svg>
+                        <p>Каждый из нас способен сделать мир чуточку лучше, ведь для добрых дел необязательно нужны деньги, главное оставаться неравнодушным!
+                        <p>Помочь благотворительному фонду «Теплый дом»‎ можно разными способами.</p><a class="linkarrow bubble-block__link" href="howtohelp.html">Как ещё можно помочь?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page-thanks">
+            <div class="container page-thanks__container">
+                <div class="page-thanks__header"><svg class="page-thanks__img">
+                        <use xlink:href="img/symbols.svg#bubble_heroes"></use>
+                    </svg>
+                    <p class="page-thanks__title">Спасибо вам <span>за помощь</span></p>
+                </div>
+                <ul class="page-thanks__donaters">
+                    <li class="page-thanks__donater">
+                        <p class="page-thanks__donater-name">Аноним</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">400 ₽</p>
+                            <p class="page-thanks__donater-time">1 час назад</p>
+                        </div>
+                    </li>
+                    <li class="page-thanks__donater">
+                        <p class="page-thanks__donater-name">Таиссия</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">1 000 ₽</p>
+                            <p class="page-thanks__donater-time">4 часа назад</p>
+                        </div>
+                    </li>
+                    <li class="page-thanks__donater">
+                        <p class="page-thanks__donater-name">Сергей</p>
+                        <div class="page-thanks__donater-pay">
+                            <p class="page-thanks__donater-sum">700 ₽</p>
+                            <p class="page-thanks__donater-time">2 часа назад</p>
+                        </div>
+                    </li>
+                    <li class="page-thanks__donater-all"><a class="page-thanks__donater-link btn-open-modal-js" href="#" data-name="modal-thanks">
+                            <p class="page-thanks__donater-title">Смотреть всех</p>
+                            <p class="page-thanks__donater-desc">Открыть</p>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__nav">
+                <ul class="footer__nav-list">
+                    <li class="footer__nav-list-item"><a href="about.html">О «Тёплом доме»</a></li>
+                    <li class="footer__nav-list-item"><a href="projects.html">Проекты</a></li>
+                    <li class="footer__nav-list-item"><a href="howtohelp.html">Как помочь?</a></li>
+                    <li class="footer__nav-list-item"><a href="news.html">Новости и истории</a></li>
+                </ul>
+                <ul class="footer__nav-list">
+                    <li class="footer__nav-list-item"><a href="">Волонтёрам и специалистам</a></li>
+                    <li class="footer__nav-list-item"><a href="">Корпоративным жертвователям</a></li>
+                    <li class="footer__nav-list-item"><a href="howtogethelp.html">Как получить помощь</a></li>
+                    <li class="footer__nav-list-item"><a href="contacts.html">Контакты</a></li>
+                </ul>
+                <ul class="footer__social">
+                    <li class="footer__social-icon footer__social_instagram"></li>
+                    <li class="footer__social-icon footer__social_facebook"></li>
+                    <li class="footer__social-icon footer__social_vk"></li>
+                </ul>
+            </div>
+            <div class="footer__address">
+                <div class="footer__address-desc">
+                    <p>Санкт-Петербург, Россия
+                        191187, ул. Чайковского, 1, литера А, пом. 11Н</p>
+                    <p><a href="tel:+79217464275">+7 921 746-42-75</a><a href="mailto:info@domgdeteplo.ru"><span>info@domgdeteplo.ru</span></a></p>
+                </div><button class="btn footer__address-button btn_orange btn-open-modal-js" data-name="modal-need-help">Обратиться за помощью</button>
+            </div>
+        </div>
+        <div class="footer__copyright container">
+            <div class="footer__copyright-politics"><a href="#">Политика конфиденциальности</a><a href="#">Пользовательское соглашение</a></div><a href="#">designed &amp; developed by SNEG</a>
+        </div>
+    </footer><script src="libs/jquery/dist/jquery.min.js"></script><script src="js/custom.js"></script>
+</body>
+
+</html>
